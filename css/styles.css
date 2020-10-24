@@ -31,7 +31,7 @@ p {
   --hero-text-color: #ffffff;
   --white-logo: #ffffff;
   --black-logo: #000000;
-  --border-color: #ececec;
+  --lain-color: #ececec;
 }
 
 .visually-hidden {
@@ -75,8 +75,13 @@ body {
   padding-bottom: 25px;
 }
 
-.header-border {
-  border: 1px solid var(--border-color);
+.lain-header {
+  border: none;
+  background-color: var(--lain-color);
+  color: var(--lain-color);
+  height: 1px;
+  margin: 0;
+  padding: 0;
 }
 
 .header-container {
@@ -154,8 +159,8 @@ body {
 
 /* footer */
 .footer {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 
   background-color: var(--bg-dark-color);
 
@@ -207,7 +212,6 @@ body {
 .section-hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  margin-bottom: 95px;
 
   background-color: var(--bg-dark-color);
 
@@ -246,7 +250,7 @@ body {
 /* Section */
 
 .section {
-  margin-bottom: 95px;
+  padding-bottom: 95px;
 }
 
 .section-title {
@@ -263,6 +267,7 @@ body {
 /* Features */
 .features {
   display: flex;
+  padding-top: 95px;
 }
 
 .features-item:not(:last-child) {
@@ -345,7 +350,8 @@ body {
 }
 /* Стили для "Портфолио" */
 .portfolio {
-  padding-top: 35px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /* button */
@@ -353,7 +359,7 @@ body {
 .button-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 35px;
+  padding-bottom: 50px;
 }
 
 .dutton-item {
@@ -407,7 +413,6 @@ body {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 152px;
 }
 
 .flex-element {
