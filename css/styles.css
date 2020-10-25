@@ -251,6 +251,7 @@ body {
 
 .section {
   padding-bottom: 95px;
+  padding-top: 95px;
 }
 
 .section-title {
@@ -267,7 +268,6 @@ body {
 /* Features */
 .features {
   display: flex;
-  padding-top: 95px;
 }
 
 .features-item:not(:last-child) {
@@ -288,6 +288,10 @@ body {
   max-width: 270px;
 }
 /* work */
+
+.work {
+  padding-top: 0;
+}
 .work-grid {
   display: flex;
   flex-wrap: wrap;
@@ -304,9 +308,6 @@ body {
 /* Team */
 
 .team {
-  padding-top: 95px;
-  padding-bottom: 95px;
-
   background: var(--bg-team-portfolio-filters);
 }
 
@@ -349,10 +350,6 @@ body {
   margin-bottom: 30px;
 }
 /* Стили для "Портфолио" */
-.portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 /* button */
 
@@ -400,6 +397,9 @@ body {
 
 .block-text {
   padding: 20px 24px;
+
+  border: 1px solid var(--lain-color);
+  border-top: none;
 }
 
 .categories {
@@ -419,8 +419,6 @@ body {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-
-  border: 1px solid var(--border-color);
 }
 
 .flex-element:nth-child(3n) {
